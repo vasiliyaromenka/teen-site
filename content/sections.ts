@@ -5,9 +5,9 @@ export type Section = {
 };
 
 export const sections: Section[] = [
-  { slug: "intro", title: "Введение", order: 10 },
-  { slug: "healthy", title: "Здоровые отношения", order: 20 },
-  { slug: "redflags", title: "Red flags", order: 30 },
+  { slug: "1_intro", title: "Введение", order: 10 },
+  { slug: "2_healthy", title: "Здоровые отношения", order: 20 },
+  { slug: "3_abuse_is", title: "Abuse is", order: 30 },
 ].sort((a, b) => a.order - b.order);
 
 export function getSectionIndex(slug: string) {
