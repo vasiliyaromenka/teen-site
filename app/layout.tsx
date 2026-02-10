@@ -28,8 +28,12 @@ export default function RootLayout({
         </main>
 
         <footer className="border-t">
-          <div className="mx-auto max-w-3xl px-4 py-6 text-xs opacity-60">
-            © {new Date().getFullYear()}
+          <div className="mx-auto max-w-3xl space-y-2 px-4 py-6 text-xs opacity-60">
+            <div>© {new Date().getFullYear()}</div>
+            <div>
+              Мы используем анонимную аналитику без cookies, чтобы понимать,
+              какие материалы полезны.
+            </div>
           </div>
         </footer>
 
