@@ -10,6 +10,11 @@ export const sections: Section[] = [
   { slug: "3_abuse_is", title: "Abuse is", order: 30 },
   { slug: "4_red_flags", title: "Красные флаги", order: 40 },
   { slug: "5_manipulations", title: "Манипуляции", order: 50 },
+  { slug: "6_repeats", title: "Ну вот опять...", order: 60 },
+  { slug: "7_save_yourself", title: "Сохрани себя", order: 70 },
+  { slug: "8_choose_right_ppl", title: "Кого впускать", order: 80 },
+  { slug: "9_consent", title: "Согласие", order: 90 },
+  { slug: "10_wrap", title: "Запомни", order: 100 },
 ].sort((a, b) => a.order - b.order);
 
 export function getSectionIndex(slug: string) {
